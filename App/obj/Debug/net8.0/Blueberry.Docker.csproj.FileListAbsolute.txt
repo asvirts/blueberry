@@ -1,0 +1,15 @@
+C:\Users\Andrew\Documents\GitHub\blueberry\App\bin\Debug\net8.0\Blueberry.Docker.exe
+C:\Users\Andrew\Documents\GitHub\blueberry\App\bin\Debug\net8.0\Blueberry.Docker.deps.json
+C:\Users\Andrew\Documents\GitHub\blueberry\App\bin\Debug\net8.0\Blueberry.Docker.runtimeconfig.json
+C:\Users\Andrew\Documents\GitHub\blueberry\App\bin\Debug\net8.0\Blueberry.Docker.dll
+C:\Users\Andrew\Documents\GitHub\blueberry\App\bin\Debug\net8.0\Blueberry.Docker.pdb
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\Blueberry.Docker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\Blueberry.Docker.AssemblyInfoInputs.cache
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\Blueberry.Docker.AssemblyInfo.cs
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\Blueberry.Docker.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\Blueberry.Docker.sourcelink.json
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\Blueberry.Docker.dll
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\refint\Blueberry.Docker.dll
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\Blueberry.Docker.pdb
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\Blueberry.Docker.genruntimeconfig.cache
+C:\Users\Andrew\Documents\GitHub\blueberry\App\obj\Debug\net8.0\ref\Blueberry.Docker.dll
