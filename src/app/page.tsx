@@ -1,28 +1,28 @@
-export default async function Home() {
-  const staticData = await fetch(
-    `https://perenual.com/api/species-list?key=sk-uP4E65f243b96643e4567`,
-    { cache: "force-cache" }
-  )
+"use client"
 
-  const plants = [
-    { id: 1, name: "tree" },
-    { id: 2, name: "bush" },
-    { id: 3, name: "fig" }
-  ]
+import { useState } from "react"
+import axios from "axios"
 
-  function List() {
-    const listItems = plants.map((plant) => (
-      <li key={plant.id}>{plant.name}</li>
-    ))
-    return <ul>{listItems}</ul>
+export default function Home() {
+  const [response, setResponse] = useState(null)
+
+  const Request = async () => {
+    try {
+      const result = await axios.get(
+        `https://perenual.com/api/species-list?key=sk-uP4E65f243b96643e4567`,
+        { someData: "test" }
+      ) // Replace the data with your actual payload
+      setResponse(result.data)
+    } catch (error) {
+      console.error("Error occured:", error)
+      setResponse(error.message)
+    }
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hi</h1>
-      <ul>
-        <List />
-      </ul>
-    </main>
+    <div>
+      <button onClick={Request}>Download</button>
+      {response && <div>Response: {JSON.stringify(response)}</div>}
+    </div>
   )
 }
