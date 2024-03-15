@@ -11,6 +11,5 @@ type Plant = {
   original_url: string
   regular_url: string
   medium_url: string
-  small_url: string
   thumbnail: string
 }
