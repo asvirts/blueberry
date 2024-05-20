@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Andrew\\source\\repos\\asvirts\\herbert\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00E43E95-681F-4E5B-9B22-4B4032DEC017}|herbert\\herbert.csproj|c:\\users\\andrew\\source\\repos\\asvirts\\herbert\\herbert\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E43E95-681F-4E5B-9B22-4B4032DEC017}|herbert\\herbert.csproj|solutionrelative:herbert\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E43E95-681F-4E5B-9B22-4B4032DEC017}|herbert\\herbert.csproj|c:\\users\\andrew\\source\\repos\\asvirts\\herbert\\herbert\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00E43E95-681F-4E5B-9B22-4B4032DEC017}|herbert\\herbert.csproj|solutionrelative:herbert\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\asvirts\\herbert\\herbert\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "herbert\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\asvirts\\herbert\\herbert\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "herbert\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T01:01:34.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Andrew\\source\\repos\\asvirts\\herbert\\herbert\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "herbert\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Andrew\\source\\repos\\asvirts\\herbert\\herbert\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "herbert\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T01:01:33.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
