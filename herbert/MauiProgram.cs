@@ -21,6 +21,8 @@ public static class MauiProgram
 		builder.Logging.AddDebug();
 #endif
 
-		return builder.Build();
+        builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://perenual.com/api") });
+
+        return builder.Build();
 	}
 }
