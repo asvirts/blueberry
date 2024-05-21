@@ -1,7 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
 
-herbert/obj/Debug/net8.0-android/herbert.csproj.FileListAbsolute.txt
-herbert/obj/Debug/net8.0-ios/iossimulator-x64/herbert.csproj.FileListAbsolute.txt
-herbert/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/herbert.csproj.FileListAbsolute.txt
-herbert/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/herbert.csproj.FileListAbsolute.txt
-herbert/Properties/launchSettings.json
-herbert/Properties/launchSettings.json
+/.vs/herbert/FileContentIndex/7cddfe5a-ea31-406f-b987-f8e00fd2e22a.vsidx
+/.vs

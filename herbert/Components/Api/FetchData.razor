@@ -1,0 +1,47 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+<h3>Fetch Data</h3>
+
+<button @onclick="CallApi">Fetch API Data</button>
+
+<ul class="mt-4">
+    @if (plants != null)
+    {
+        foreach (var plant in plants)
+        {
+            <li>
+                Id: @plant.Id, Common Name: @plant.CommonName, Scientific Name: @plant.scientific_name, Cycle: @plant.Cycle, Watering: @plant.Watering, Sunlight: @plant.Sunlight
+            </li>
+        }
+    }
+    else
+    {
+        @result
+    }
+</ul>
+
+@code {
+    private string result = "Click to fetch plant database...";
+    private List<Plant> plants;
+
+    private async Task CallApi()
+    {
+        try
+        {
+            string url = "https://perenual.com/api/species-list?key=sk-uP4E65f243b96643e4567";
+            var response = await Http.GetStringAsync(url);
+            var apiResponse = JsonSerializer.Deserialize<PlantData>(response);
+            plants = apiResponse?.Data;
+
+            if (plants == null || plants.Count == 0)
+            {
+                result = "No data found";
+            }
+        }
+        catch (Exception ex)
+        {
+            result = $"Error: {ex.Message}";
+        }
+    }
+}
